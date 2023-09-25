@@ -1,0 +1,169 @@
+:root {
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto';
+    width: 1440px;
+    height: 2592px;
+}
+/* start headliner design*/
+
+.logo {
+    color: var(--NAVY-BLUE);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+span {
+    color: var(--IRIS);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    initial-letter: 0.54px;
+    text-transform: uppercase;
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+.navigation {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    list-style: none;
+   
+}
+
+.portfolio a,
+.contacts a {
+    color: var(--NAVY-BLUE);
+}
+.emailandphone {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+      list-style: none;
+}
+
+.emailandphone a {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+}
+/* end headliner design */
+
+/* start body design */
+
+
+
+
+
+/* end body design */
+
+/* start footer design */
+.logofooter {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
+}
+
+span {
+    color: var(--IRIS);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    initial-letter: 0.54px;
+    text-transform: uppercase;
+}
+
+.footermessage {
+    color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 264px;
+    margin-top: 16px;
+}
+/* end footer design */
+
+
+/* start of headliner layout */
+
+.topcontainer {
+   /* display: inline-flex; */
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0
+}
+
+.logofull {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 24px;
+    margin-left: 115px;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 347px;
+    gap: 40px
+
+    /* display: inline-flex;
+    align-items: flex-start;
+    gap: 40px; */
+}
+
+.emailandphone {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 40px;
+    margin-right: 156px;
+     
+    /* display: inline-flex;
+    align-items: flex-start;
+    gap: 40px; */
+}
