@@ -73,6 +73,11 @@ nav a {
     text-decoration: none;
     color: var(--NAVY-BLUE);
 }
+
+.topcontainer {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
 /* end headliner design */
 
 /* start body design */
@@ -131,6 +136,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-shrink: 0
+
 }
 
 .logofull {
