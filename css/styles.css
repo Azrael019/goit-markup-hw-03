@@ -128,15 +128,6 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-
-
 /* banner */
 
 .hero-container {
@@ -292,12 +283,6 @@ section .vision .card:not(:nth-child(1)){
 .our-team .team-header{
     margin-top: 120px;
 }
-
-
-
-
-
-
 
 
 /* end Team */
@@ -469,3 +454,27 @@ footer a{
 }
 
 /* end of footer */
+
+
+
+
+/* Navigation Interaction */
+.portfolio a:hover,
+.contacts a:hover {
+    color: #6063a3;
+}
+
+.studio a:hover {
+    color: #5c5e7f;
+}
+
+.hero-container button:hover {
+    color: var(--NAVY-BLUE);
+    background-color: #FFF;
+}
+
+.emailandphone a:hover,
+footer p:hover {
+    color: #4D5AE5;
+}
+
