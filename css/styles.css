@@ -1,9 +1,9 @@
-:root{
+:root {
     --NAVY-BLUE: #2E2F42;
     --IRIS: #4D5AE5;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +13,10 @@ body {
     background-color: #fff;
     font-family: 'Roboto';
     width: 1440px;
-    height: 2592px; 
+    height: 2592px;
 }
+
+/* start headliner design*/
 
 .logo {
     color: var(--NAVY-BLUE);
@@ -30,7 +32,7 @@ body {
 span {
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
-    font-size:  18px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
@@ -39,7 +41,7 @@ span {
 }
 
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
@@ -51,44 +53,13 @@ nav a{
     line-height: 24px;
     letter-spacing: 0.32px;
     list-style: none;
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
 }
+
 .portfolio a,
-.contacts a{
+.contacts a {
     color: var(--NAVY-BLUE);
 }
-
-.navigation .contacts, 
-.navigation .portfolio,
-.navigation .studio,
-.emailandphone .email,
-.emailandphone .telno{
-    margin-right: 40px;
-}
-
-/* Navigation Interaction */
-.portfolio a:hover,
-.contacts a:hover {
-    color:#6063a3;
-}
-
-.studio a:hover {
-    color: #5c5e7f;
-}
-
-.hero-container button:hover{
-    color: var(--NAVY-BLUE);
-    background-color: #FFF;
-}
-
-.emailandphone a:hover,
-footer p:hover
-{
-    color:#4D5AE5;
-}
-
 
 .emailandphone {
     font-family: Roboto;
@@ -97,54 +68,72 @@ footer p:hover
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding-left: 0px;
     list-style: none;
 }
 
-.emailandphone a{
+.emailandphone a {
     text-decoration: none;
     color: var(--NAVY-BLUE);
 }
 
 .topcontainer {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+/* end headliner design */
+
+
+/* start of headliner layout */
+
+.topcontainer {
     display: flex;
-    align-items: center; 
-    justify-content: space-around;
+    align-items: center;
+    /* justify-content:flex-start; */
     width: 1440px;
     height: 72px;
+    margin-bottom: 96px;
 }
 
-.topcontainer .topline{
+.topcontainer .logo {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topcontainer .navigation{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.topcontainer .tel-no ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-}
-
-.logofull {
-    width: 115px;
-    height: 24px;
+    /* align-content: flex-start; */
+    /* align-items: start; */
     margin-left: 156px;
-    margin-top: 24px;
-    margin-right: 76px;
-    margin-bottom: 24px;
 }
 
+.topcontainer .topline {
+    display: flex;
+    /* align-content: flex-start; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+}
 
-/* end of headliner */
+.topcontainer .navigation {
+    display: flex;
+    /* justify-content: right; */
+    margin-left: 76px;
+    gap: 40px
+}
+
+.emailandphone {
+    display: flex;
+    align-items: center;
+    margin-left: 332px;
+    /* justify-content: right; */
+    gap: 40px;
+}
+
+/* end of headliner layout */
+
+
+
+
+
+
+
+
+
 
 
 

@@ -80,11 +80,52 @@ nav a {
 }
 /* end headliner design */
 
+
+
+/* start navigation design */
+
+.selection {
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    
+        /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+/* end navigation desigh */
+
 /* start body design */
+h {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+     /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+        /* 120% */
+    letter-spacing: 0.4px;
+}
 
-
-
-
+p {
+    color: var(--SLATE, #434455);
+    
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
 
 /* end body design */
 
@@ -100,7 +141,6 @@ nav a {
     text-transform: uppercase;
 
 }
-
 span {
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
@@ -111,7 +151,6 @@ span {
     initial-letter: 0.54px;
     text-transform: uppercase;
 }
-
 .footermessage {
     color: var(--CLOUD, #F4F4FD);
     /* Body */
@@ -127,49 +166,72 @@ span {
 /* end footer design */
 
 
+
+
+
+
+
 /* start of headliner layout */
 
 .topcontainer {
-   /* display: inline-flex; */
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-start; */
     width: 1440px;
     height: 72px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0
-
+    margin-bottom: 96px;
 }
-
-.logofull {
+.topcontainer .logo {
     display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-top: 24px;
-    margin-left: 115px;
+    /* align-content: flex-start; */
+    /* align-items: start; */
+    margin-left: 156px;
 }
-
-
-.navigation {
+.topcontainer .topline {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    margin-right: 347px;
+    /* align-content: flex-start; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+}
+.topcontainer .navigation {
+    display: flex;
+    /* justify-content: right; */
+    margin-left: 76px;
     gap: 40px
-
-    /* display: inline-flex;
-    align-items: flex-start;
-    gap: 40px; */
 }
-
 .emailandphone {
     display: flex;
     align-items: center;
-    justify-content: right;
+    margin-left: 332px;
+    /* justify-content: right; */
     gap: 40px;
-    margin-right: 156px;
-     
-    /* display: inline-flex;
-    align-items: flex-start;
-    gap: 40px; */
 }
+/* end of headliner layout */
+
+/* start navigation layout */
+
+.selection a{
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.selection li {
+    list-style: none;
+}
+
+.selection {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* end navigation layout */
+
+/* start body layout */
+
+
+/* end body layout */
