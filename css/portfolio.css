@@ -240,13 +240,24 @@ span {
 
 
 .rows {
-    display: flex; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     gap: 24px;
     margin-left: 156px;  
     background: var(--WHITE, #FFF);
     margin-bottom: 28px;
+    /* border-style: dashed; */
+    /* padding: 0; */
+    margin-left: 0;
 }
 
+.rows .row1,
+.rows .row2,
+.rows .row3 {
+    display: flex;
+    gap: 24px;
+}
 .rows ul li {
     list-style: none;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -307,4 +318,9 @@ footer a {
 .emailandphone a:hover,
 footer p:hover {
     color: #4D5AE5;
+}
+
+.selection a:hover {
+    color:#FFF;
+    background-color: #4D5AE5;
 }
