@@ -177,6 +177,11 @@ span {
 
 /* start of headliner layout */
 
+
+body {
+    margin: 0 auto;
+}
+
 .topcontainer {
     display: flex;
     align-items: center;
